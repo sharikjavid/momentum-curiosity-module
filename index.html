@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Curiosity Driven Exploration by Momentum Predictive
+Representations.">
+  <meta name="keywords" content="Curiosity, reinfocement learning, sparse reward, ICM, mario super bros">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Curiosity Driven Exploration by Momentum Predictive Representations</title>
+<link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+<link rel="stylesheet" href="./static/css/bulma.min.css">
+<link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+<link rel="stylesheet" href="./static/css/bootstrap.min.css">
+<link rel="stylesheet" href="./static/css/index.css">
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+<section class="hero">
+  <div class="hero-body">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h2  class="title is-2">Curiosity Driven Exploration by Momentum Predictive Representations </h2>
+           <div class="column has-text-centered">
+            <span class="link-block">
+                <a href="#" disabled
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="hero teaser">
+    <div class="columns is-centered">
+      <div class="column is-6">
+        <video id="teaser" autoplay muted loop >
+          <source src="static/videos/mcm.mp4"
+                  type="video/mp4">
+        </video>
+       </div>
+    </div>
+</section>
+<section class="section">
+  <div class="container">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-two-thirds">
+        <h3>Introduction</h3>
+        <div class="content has-text-justified">
+          <p style = "font-size: 17px;">
+            In ICM - Intrinsic Curiosity Module(Pathak et al., 2017), the novelty of the state is evaluated based on the prediction error of the forward dynamics model. However, the output of the forward dynamics model is not stable due to the rapidly changing encoder and thus reduces the state representation consistency. The previous states explored earlier by the agent suddenly become novel in the future due to the inconsistency in the encoder’s representations, thus suffering from a significant performance drop. To address this problem, we propose a novel framework, the Momentum Curiosity Module(MCM).
+          </p>
+        </div>
+      </div>
+    </div>
+     </div>
+ 
+</section>
+
+
+<section>
+ <hr width="70%" class=" is-centered">
+   <div>
+      <h3> Momentum Curiosity Module(MCM)</h3>
+          <img class = "arch" src="./static/images/arch.png">
+    </div>
+    <hr width="70%" class=" is-centered">
+ </section>
+<section >
+  <div >
+      <h3>Results</h3>
+    </div >
+   <div class="text-center">
+      <img  class= "result" src="static/images/result1.png">
+      <img class= "result" src="static/images/result2.png">
+</div>    
+   </div>
+</section>
+
+
+</body>
+</html>
